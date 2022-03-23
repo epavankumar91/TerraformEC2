@@ -3,7 +3,7 @@ resource "aws_instance" "webApp" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "Jenkinsec2"
+    Name = "JenkinsEc2"
   }
 }
 
